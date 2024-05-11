@@ -1,0 +1,31 @@
+:root {
+    --taille: 75px;
+  }
+  
+  .bloc-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--taille), 1fr));
+    grid-template-rows: repeat(2, var(--taille));
+    gap: 10px;
+    background-color: whitesmoke;
+    border: 2px green solid;
+    padding: 5px;
+  }
+  
+  .bloc-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, var(--taille));
+    grid-template-rows: repeat(2, var(--taille));
+    gap: 20px;
+    background-color: whitesmoke;
+    border: 2px green solid;
+    padding: 10px;
+    margin: 10px;
+    width: calc((var(--taille) * 4) + (3 * 20px) + (2 * 10px) + (2 * 2px) + (2 * 10px));
+  }
+  
+  .bloc {
+    background-color: blueviolet;
+    border: 2px red solid;
+  }
+  
