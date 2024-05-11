@@ -1,0 +1,39 @@
+:root {
+  --taille: 100px;
+}
+
+.bloc-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  background-color: rgb(245, 245, 245);
+  border: 2px black;
+  padding: 10px;
+  grid-template-areas: 
+      "blockheader blocheader"
+      "blocksidebar blocmain"
+      "blocksidebar blocfooter";
+}
+
+
+
+.blockheader {
+  background-color: pink;
+  grid-area: blocheader;
+}
+
+.blocksidebar {
+  background-color: blue;
+  grid-area: blocsidebar;
+}
+
+.blockmain {
+  background-color: green;
+  grid-area: blocmain;
+}
+
+.blockfooter {
+  background-color: yellow;
+  grid-area: blocfooter;
+}

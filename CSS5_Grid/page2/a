@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    div class="bloc-container">
+
+    <div class="blocheader">header</div>
+    <div class="blocsidebar">sidebar</div>
+    <div class="blocmain">main</div>
+    <div class="blocfooter">footer</div>
+   
+
+</body>
+</html>:root {
+    --taille: 100px;
+  }
+  
+  .bloc-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 3fr;
+    gap: 20px;
+    background-color: whitesmoke;
+    border: 2px green solid;
+    padding: 10px;
+  } 
+  
+
+    grid-template-areas: "blocheader blocheader"
+      "blocsidebar blocmain";
+      "blocsidebar blocfooter";
+}
+
+.bloc {
+    background-color: blueviolet;
+    border: 2px red solid;
+}
