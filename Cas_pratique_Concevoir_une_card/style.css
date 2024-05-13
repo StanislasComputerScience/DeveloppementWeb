@@ -1,0 +1,31 @@
+.card-container { 
+    display: block;
+    background-color: grey;
+    border: 2px solid orangered;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Ombre plus marquée */
+}
+
+.card-img {
+    border-radius: 50px;
+    border: 2px orange solid;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Ombre plus marquée */
+}
+
+section {
+    padding: 5px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Ombre plus marquée */
+}
